@@ -1,6 +1,9 @@
-#ifndef CANDIDATE_H
-#define CANDIDATE_H
+//
+// Created by jmlop on 11/22/2021.
+//
 
+#ifndef UNTITLED_CANDIDATE_H
+#define UNTITLED_CANDIDATE_H
 //Incluimos las librerias
 #include <iostream>
 #include <stdlib.h>
@@ -26,6 +29,4 @@ public:
     Candidate(/* args */);
     ~Candidate();
 };
-
-
-#endif
+#endif //UNTITLED_CANDIDATE_H

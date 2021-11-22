@@ -1,5 +1,9 @@
-#ifndef NATIONALITY_H
-#define NATIONALITY_H
+//
+// Created by jmlop on 11/22/2021.
+//
+
+#ifndef RECRUITMENT_JJA_JML_SP_NATIONALITY_H
+#define RECRUITMENT_JJA_JML_SP_NATIONALITY_H
 
 //Incluimos las librerias
 #include <iostream>
@@ -25,4 +29,4 @@ public:
     ~Nationality();
 };
 
-#endif
+#endif //RECRUITMENT_JJA_JML_SP_NATIONALITY_H

@@ -1,5 +1,9 @@
-#ifndef VIEW_H
-#define  VIEW_H
+//
+// Created by jmlop on 11/22/2021.
+//
+
+#ifndef RECRUITMENT_JJA_JML_SP_SYSTEM_H
+#define RECRUITMENT_JJA_JML_SP_SYSTEM_H
 
 //Incluimos las librerias
 #include <iostream>
@@ -14,7 +18,7 @@ using std::string;
 using std::map;
 
 //Definicion de la clase system
-class System{ 
+class System{
 private:
     map<int, Candidate*> candidatesMap;
     map<string, Nationality*> nationalitiesMap;
@@ -23,4 +27,4 @@ public:
     ~System();
 };
 
-#endif
+#endif //RECRUITMENT_JJA_JML_SP_SYSTEM_H
