@@ -1,9 +1,6 @@
-#include "View.h"
 #include <iostream>
 
-using std::cin;
-using std::cout;
-
-void main(){
-    return;
+int main() {
+    std::cout << "Hello, World!" << std::endl;
+    return 0;
 }
