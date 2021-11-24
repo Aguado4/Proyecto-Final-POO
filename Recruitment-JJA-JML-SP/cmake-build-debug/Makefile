@@ -152,6 +152,102 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment-JJA-JML-SP.dir\build.make CMakeFiles/Recruitment-JJA-JML-SP.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/Model/Afghan.obj: src/Model/Afghan.cpp.obj
+.PHONY : src/Model/Afghan.obj
+
+# target to build an object file
+src/Model/Afghan.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment-JJA-JML-SP.dir\build.make CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Afghan.cpp.obj
+.PHONY : src/Model/Afghan.cpp.obj
+
+src/Model/Afghan.i: src/Model/Afghan.cpp.i
+.PHONY : src/Model/Afghan.i
+
+# target to preprocess a source file
+src/Model/Afghan.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment-JJA-JML-SP.dir\build.make CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Afghan.cpp.i
+.PHONY : src/Model/Afghan.cpp.i
+
+src/Model/Afghan.s: src/Model/Afghan.cpp.s
+.PHONY : src/Model/Afghan.s
+
+# target to generate assembly for a file
+src/Model/Afghan.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment-JJA-JML-SP.dir\build.make CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Afghan.cpp.s
+.PHONY : src/Model/Afghan.cpp.s
+
+src/Model/Colombian.obj: src/Model/Colombian.cpp.obj
+.PHONY : src/Model/Colombian.obj
+
+# target to build an object file
+src/Model/Colombian.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment-JJA-JML-SP.dir\build.make CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Colombian.cpp.obj
+.PHONY : src/Model/Colombian.cpp.obj
+
+src/Model/Colombian.i: src/Model/Colombian.cpp.i
+.PHONY : src/Model/Colombian.i
+
+# target to preprocess a source file
+src/Model/Colombian.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment-JJA-JML-SP.dir\build.make CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Colombian.cpp.i
+.PHONY : src/Model/Colombian.cpp.i
+
+src/Model/Colombian.s: src/Model/Colombian.cpp.s
+.PHONY : src/Model/Colombian.s
+
+# target to generate assembly for a file
+src/Model/Colombian.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment-JJA-JML-SP.dir\build.make CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Colombian.cpp.s
+.PHONY : src/Model/Colombian.cpp.s
+
+src/Model/German.obj: src/Model/German.cpp.obj
+.PHONY : src/Model/German.obj
+
+# target to build an object file
+src/Model/German.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment-JJA-JML-SP.dir\build.make CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/German.cpp.obj
+.PHONY : src/Model/German.cpp.obj
+
+src/Model/German.i: src/Model/German.cpp.i
+.PHONY : src/Model/German.i
+
+# target to preprocess a source file
+src/Model/German.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment-JJA-JML-SP.dir\build.make CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/German.cpp.i
+.PHONY : src/Model/German.cpp.i
+
+src/Model/German.s: src/Model/German.cpp.s
+.PHONY : src/Model/German.s
+
+# target to generate assembly for a file
+src/Model/German.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment-JJA-JML-SP.dir\build.make CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/German.cpp.s
+.PHONY : src/Model/German.cpp.s
+
+src/Model/Japanese.obj: src/Model/Japanese.cpp.obj
+.PHONY : src/Model/Japanese.obj
+
+# target to build an object file
+src/Model/Japanese.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment-JJA-JML-SP.dir\build.make CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Japanese.cpp.obj
+.PHONY : src/Model/Japanese.cpp.obj
+
+src/Model/Japanese.i: src/Model/Japanese.cpp.i
+.PHONY : src/Model/Japanese.i
+
+# target to preprocess a source file
+src/Model/Japanese.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment-JJA-JML-SP.dir\build.make CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Japanese.cpp.i
+.PHONY : src/Model/Japanese.cpp.i
+
+src/Model/Japanese.s: src/Model/Japanese.cpp.s
+.PHONY : src/Model/Japanese.s
+
+# target to generate assembly for a file
+src/Model/Japanese.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment-JJA-JML-SP.dir\build.make CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Japanese.cpp.s
+.PHONY : src/Model/Japanese.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -164,6 +260,18 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... src/Model/Afghan.obj
+	@echo ... src/Model/Afghan.i
+	@echo ... src/Model/Afghan.s
+	@echo ... src/Model/Colombian.obj
+	@echo ... src/Model/Colombian.i
+	@echo ... src/Model/Colombian.s
+	@echo ... src/Model/German.obj
+	@echo ... src/Model/German.i
+	@echo ... src/Model/German.s
+	@echo ... src/Model/Japanese.obj
+	@echo ... src/Model/Japanese.i
+	@echo ... src/Model/Japanese.s
 .PHONY : help
 
 

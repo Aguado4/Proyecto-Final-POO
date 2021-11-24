@@ -85,10 +85,34 @@
 		<Unit filename="D:/jmlop/Desktop/Universidad/Tercer Semestre/OOP/CasinoEstudiantes/Proyecto-Final-POO/Recruitment-JJA-JML-SP/main.cpp">
 			<Option target="Recruitment-JJA-JML-SP"/>
 		</Unit>
+		<Unit filename="D:/jmlop/Desktop/Universidad/Tercer Semestre/OOP/CasinoEstudiantes/Proyecto-Final-POO/Recruitment-JJA-JML-SP/src/Model/Afghan.cpp">
+			<Option target="Recruitment-JJA-JML-SP"/>
+		</Unit>
+		<Unit filename="D:/jmlop/Desktop/Universidad/Tercer Semestre/OOP/CasinoEstudiantes/Proyecto-Final-POO/Recruitment-JJA-JML-SP/src/Model/Afghan.h">
+			<Option target="Recruitment-JJA-JML-SP"/>
+		</Unit>
 		<Unit filename="D:/jmlop/Desktop/Universidad/Tercer Semestre/OOP/CasinoEstudiantes/Proyecto-Final-POO/Recruitment-JJA-JML-SP/src/Model/Candidate.h">
 			<Option target="Recruitment-JJA-JML-SP"/>
 		</Unit>
+		<Unit filename="D:/jmlop/Desktop/Universidad/Tercer Semestre/OOP/CasinoEstudiantes/Proyecto-Final-POO/Recruitment-JJA-JML-SP/src/Model/Colombian.cpp">
+			<Option target="Recruitment-JJA-JML-SP"/>
+		</Unit>
+		<Unit filename="D:/jmlop/Desktop/Universidad/Tercer Semestre/OOP/CasinoEstudiantes/Proyecto-Final-POO/Recruitment-JJA-JML-SP/src/Model/Colombian.h">
+			<Option target="Recruitment-JJA-JML-SP"/>
+		</Unit>
+		<Unit filename="D:/jmlop/Desktop/Universidad/Tercer Semestre/OOP/CasinoEstudiantes/Proyecto-Final-POO/Recruitment-JJA-JML-SP/src/Model/German.cpp">
+			<Option target="Recruitment-JJA-JML-SP"/>
+		</Unit>
+		<Unit filename="D:/jmlop/Desktop/Universidad/Tercer Semestre/OOP/CasinoEstudiantes/Proyecto-Final-POO/Recruitment-JJA-JML-SP/src/Model/German.h">
+			<Option target="Recruitment-JJA-JML-SP"/>
+		</Unit>
 		<Unit filename="D:/jmlop/Desktop/Universidad/Tercer Semestre/OOP/CasinoEstudiantes/Proyecto-Final-POO/Recruitment-JJA-JML-SP/src/Model/Interview.h">
+			<Option target="Recruitment-JJA-JML-SP"/>
+		</Unit>
+		<Unit filename="D:/jmlop/Desktop/Universidad/Tercer Semestre/OOP/CasinoEstudiantes/Proyecto-Final-POO/Recruitment-JJA-JML-SP/src/Model/Japanese.cpp">
+			<Option target="Recruitment-JJA-JML-SP"/>
+		</Unit>
+		<Unit filename="D:/jmlop/Desktop/Universidad/Tercer Semestre/OOP/CasinoEstudiantes/Proyecto-Final-POO/Recruitment-JJA-JML-SP/src/Model/Japanese.h">
 			<Option target="Recruitment-JJA-JML-SP"/>
 		</Unit>
 		<Unit filename="D:/jmlop/Desktop/Universidad/Tercer Semestre/OOP/CasinoEstudiantes/Proyecto-Final-POO/Recruitment-JJA-JML-SP/src/Model/Nationality.h">
