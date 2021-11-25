@@ -9,21 +9,23 @@
 #include <iostream>
 #include <stdlib.h>
 
-using std::cin;
-using std::cout;
-using std::string;
+using namespace std;
 
 //Definicion de la clase interview
-class Interview
-{
-private:
-    int candidateId;
-    string date;
-    int hour;//duran una hora, comienzan a las 10 y solo son 3 asi que tienen que ser a las 10,11 o 12
-    int numberOfInterviewDay; //Para controlar que solo hayan 3 entrevistas al dia
-public:
-    Interview(/* args */);
-    ~Interview();
+class Interview{
+    private:
+        int candidateId;
+        string date;
+        int hour;
+    public:
+        Interview(int candidateId, string date, int hour);
+        int getCandidateId() const;
+        void setCandidateId(int candidateId);
+        const string &getDate() const;
+        void setDate(const string &date);
+        int getHour() const;
+        void setHour(int hour);
+        ~Interview();
 };
 
-#endif //RECRUITMENT_JJA_JML_SP_INTERVIEW_H
+#endif

@@ -36,3 +36,5 @@ void View::mostrarMenu(){
     }while(opcion != 0);
 }
 
+View::~View(){}
+
