@@ -6,21 +6,16 @@
 #include <stdlib.h>
 #include "../Model/System.h"
 
-using std::cin;
-using std::cout;
-using std::string;
-
+using namespace std;
 //Definicion de la clase view
 class View{ 
-private:
-	// Objeto de que se enlaza con la vista del sistema
-	System recruitmentSystem;
-	// Privado pues son de uso interno
-	void mostrarMenu();
-public:		
-	View();
-	~View();
-
+    private:
+        // Objeto de que se enlaza con la vista del sistema
+        System recruitmentSystem;
+    public:
+        View();
+        void mostrarMenu();
+        ~View();
 };
 
 #endif
