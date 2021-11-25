@@ -15,18 +15,12 @@ using std::string;
 
 //Definicion de la clase nationality
 class Nationality{
-private:
-    string Name;
-    string eyeContact;
-    string gestures;
-    string touch;
-    string personalSpace;
-    string timeManagement;
-    string communication;
-    string nap;
+protected:
+    string name;
 public:
     Nationality();
-    ~Nationality();
+    virtual ~Nationality();
+    virtual string culturalInfo() = 0;
 };
 
 #endif //RECRUITMENT_JJA_JML_SP_NATIONALITY_H
