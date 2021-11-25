@@ -25,6 +25,9 @@ private:
 public:
     System();
     ~System();
+    bool existingCandidate(int id);
+    void addCandidate(string name, int id, Nationality * nationality, string email, string linkedlnURL,
+                      string gitURL, int passportNumber);
 };
 
 #endif //RECRUITMENT_JJA_JML_SP_SYSTEM_H

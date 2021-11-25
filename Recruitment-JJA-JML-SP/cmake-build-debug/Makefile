@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\jmlop\Desktop\Universidad\Tercer Semestre\OOP\CasinoEstudiantes\Proyecto-Final-POO\Recruitment-JJA-JML-SP"
+CMAKE_SOURCE_DIR = C:\Users\juanj\Proyecto-Final-POO\Recruitment-JJA-JML-SP
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\jmlop\Desktop\Universidad\Tercer Semestre\OOP\CasinoEstudiantes\Proyecto-Final-POO\Recruitment-JJA-JML-SP\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\juanj\Proyecto-Final-POO\Recruitment-JJA-JML-SP\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\jmlop\Desktop\Universidad\Tercer Semestre\OOP\CasinoEstudiantes\Proyecto-Final-POO\Recruitment-JJA-JML-SP\cmake-build-debug\CMakeFiles" "D:\jmlop\Desktop\Universidad\Tercer Semestre\OOP\CasinoEstudiantes\Proyecto-Final-POO\Recruitment-JJA-JML-SP\cmake-build-debug\\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\juanj\Proyecto-Final-POO\Recruitment-JJA-JML-SP\cmake-build-debug\CMakeFiles C:\Users\juanj\Proyecto-Final-POO\Recruitment-JJA-JML-SP\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\jmlop\Desktop\Universidad\Tercer Semestre\OOP\CasinoEstudiantes\Proyecto-Final-POO\Recruitment-JJA-JML-SP\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\juanj\Proyecto-Final-POO\Recruitment-JJA-JML-SP\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -176,6 +176,30 @@ src/Model/Afghan.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment-JJA-JML-SP.dir\build.make CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Afghan.cpp.s
 .PHONY : src/Model/Afghan.cpp.s
 
+src/Model/Candidate.obj: src/Model/Candidate.cpp.obj
+.PHONY : src/Model/Candidate.obj
+
+# target to build an object file
+src/Model/Candidate.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment-JJA-JML-SP.dir\build.make CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Candidate.cpp.obj
+.PHONY : src/Model/Candidate.cpp.obj
+
+src/Model/Candidate.i: src/Model/Candidate.cpp.i
+.PHONY : src/Model/Candidate.i
+
+# target to preprocess a source file
+src/Model/Candidate.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment-JJA-JML-SP.dir\build.make CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Candidate.cpp.i
+.PHONY : src/Model/Candidate.cpp.i
+
+src/Model/Candidate.s: src/Model/Candidate.cpp.s
+.PHONY : src/Model/Candidate.s
+
+# target to generate assembly for a file
+src/Model/Candidate.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment-JJA-JML-SP.dir\build.make CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Candidate.cpp.s
+.PHONY : src/Model/Candidate.cpp.s
+
 src/Model/Colombian.obj: src/Model/Colombian.cpp.obj
 .PHONY : src/Model/Colombian.obj
 
@@ -248,6 +272,30 @@ src/Model/Japanese.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment-JJA-JML-SP.dir\build.make CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Japanese.cpp.s
 .PHONY : src/Model/Japanese.cpp.s
 
+src/Model/System.obj: src/Model/System.cpp.obj
+.PHONY : src/Model/System.obj
+
+# target to build an object file
+src/Model/System.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment-JJA-JML-SP.dir\build.make CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/System.cpp.obj
+.PHONY : src/Model/System.cpp.obj
+
+src/Model/System.i: src/Model/System.cpp.i
+.PHONY : src/Model/System.i
+
+# target to preprocess a source file
+src/Model/System.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment-JJA-JML-SP.dir\build.make CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/System.cpp.i
+.PHONY : src/Model/System.cpp.i
+
+src/Model/System.s: src/Model/System.cpp.s
+.PHONY : src/Model/System.s
+
+# target to generate assembly for a file
+src/Model/System.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment-JJA-JML-SP.dir\build.make CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/System.cpp.s
+.PHONY : src/Model/System.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -263,6 +311,9 @@ help:
 	@echo ... src/Model/Afghan.obj
 	@echo ... src/Model/Afghan.i
 	@echo ... src/Model/Afghan.s
+	@echo ... src/Model/Candidate.obj
+	@echo ... src/Model/Candidate.i
+	@echo ... src/Model/Candidate.s
 	@echo ... src/Model/Colombian.obj
 	@echo ... src/Model/Colombian.i
 	@echo ... src/Model/Colombian.s
@@ -272,6 +323,9 @@ help:
 	@echo ... src/Model/Japanese.obj
 	@echo ... src/Model/Japanese.i
 	@echo ... src/Model/Japanese.s
+	@echo ... src/Model/System.obj
+	@echo ... src/Model/System.i
+	@echo ... src/Model/System.s
 .PHONY : help
 
 

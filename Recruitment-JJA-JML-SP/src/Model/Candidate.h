@@ -24,9 +24,13 @@ private:
     string linkedlnURL;
     string gitURL;
     int passportNumber;
-    Interview interview;
+    bool hired;
 public:
-    Candidate(/* args */);
+    Candidate();
+    Candidate(string name, int id, Nationality * nationality, string email, string linkedlnURL, string gitURL, int passportNumber, bool hired);
     ~Candidate();
+    string returnNationalityInfo();
+    //gets & sets
+    int getId();
 };
 #endif //UNTITLED_CANDIDATE_H
