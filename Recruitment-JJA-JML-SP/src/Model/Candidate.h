@@ -8,7 +8,6 @@
 #include <iostream>
 #include <stdlib.h>
 #include "Nationality.h"
-#include "Interview.h"
 
 using std::cin;
 using std::cout;

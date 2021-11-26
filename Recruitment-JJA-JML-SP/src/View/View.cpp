@@ -24,7 +24,7 @@ void View::mostrarMenu(){
                 //recruitmentSystem.
                 break;
             case 3:
-                //recruitmentSystem.
+                recruitmentSystem.createInterview();
                 break;
             case 4:
                 //recruitmentSystem.

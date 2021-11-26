@@ -26,6 +26,8 @@ class Interview{
         int getHour() const;
         void setHour(int hour);
         ~Interview();
+
+    virtual ~Interview();
 };
 
 #endif

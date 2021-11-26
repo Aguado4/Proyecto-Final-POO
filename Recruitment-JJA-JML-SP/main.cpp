@@ -1,5 +1,5 @@
 #include <iostream>
-#include "View.h"
+#include "src/View/View.h"
 
 int main() {
     View sistema;
