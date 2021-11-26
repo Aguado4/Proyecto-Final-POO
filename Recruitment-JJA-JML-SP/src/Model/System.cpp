@@ -34,7 +34,7 @@ void System::addCandidate(string name, int id, Nationality * nationality, string
 void System::createInterview(){
     int id;
     do{
-        cout << "Type de Id of the candidate: ";
+        cout << "Type the Id of the candidate: ";
         cin >> id;
     }while(!existingCandidate(id));
     Interview* cita = new Interview(id, this->date, this->hour);
@@ -42,8 +42,28 @@ void System::createInterview(){
     setHour(this->hour++);
 }
 
+void System::printLetter(int id){
+    ofstream archivoTemp;
+    string nombreArchivo = "carta.txt";
+    archivoTemp.open(nombreArchivo);
+    archivoTemp << "Mr/Ms " << candidatesMap[id]->getName() << ".\n" << endl
+                << "Welcome to ParkingSoft, you have been hired." << endl << endl
+                << getValues() << endl
+                //<< "" cosas colombianas
+                << "Congratulaichons." << endl;
+    archivoTemp.close();
+}
+
 void System::setHour(int hour) {
     System::hour = hour;
+}
+
+const string &System::getValues() const {
+    return values;
+}
+
+void System::setValues(const string &values) {
+    System::values = values;
 }
 
 System::~System(){

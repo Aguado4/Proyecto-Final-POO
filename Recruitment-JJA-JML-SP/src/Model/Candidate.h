@@ -31,5 +31,10 @@ public:
     string returnNationalityInfo();
     //gets & sets
     int getId();
+    const string &getName() const;
+    void setName(const string &name);
+    bool isHired() const;
+    void setHired(bool hired);
 };
+
 #endif //UNTITLED_CANDIDATE_H

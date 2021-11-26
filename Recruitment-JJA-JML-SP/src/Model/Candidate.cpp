@@ -27,3 +27,19 @@ string Candidate::returnNationalityInfo(){
 int Candidate::getId(){
     return id;
 }
+
+const string &Candidate::getName() const {
+    return name;
+}
+
+void Candidate::setName(const string &name) {
+    Candidate::name = name;
+}
+
+bool Candidate::isHired() const {
+    return hired;
+}
+
+void Candidate::setHired(bool hired) {
+    Candidate::hired = hired;
+}

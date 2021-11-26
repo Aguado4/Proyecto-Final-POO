@@ -11,7 +11,7 @@ void View::mostrarMenu(){
         cout << "2. Create candidate.\n";
         cout << "3. Schedule interview.\n";
         cout << "4. Generate interview guide.\n";
-        cout << "5. Generate welcome letter.\n";
+        cout << "5. Hire candidate.\n";
         cout << "0. Exit.\n";
         cout << "Select an option: ";
         cin >> opcion;
