@@ -27,19 +27,18 @@ void System::addCandidate(string name, int id, Nationality * nationality, string
         //se agrega al mapa
         candidatesMap.insert({pCandidate->getId(), pCandidate});
     }else{
-        throw std::invalid_argument("A candidate with this id already exists\n");
+        throw std::invalid_argument("A candidate with this id already exists.\n");
     }
 }
 
-void System::createInterview(){
-    int id;
-    do{
-        cout << "Type the Id of the candidate: ";
-        cin >> id;
-    }while(!existingCandidate(id));
-    Interview* cita = new Interview(id, this->date, this->hour);
-    interviewsMap.insert({id, cita});
-    setHour(this->hour++);
+void System::createInterview(int id){
+    if(existingCandidate(id)){
+        Interview* cita = new Interview(id, this->date, this->hour);
+        interviewsMap.insert({id, cita});
+        setHour(this->hour++);
+    }else{
+        throw std::invalid_argument("A candidate with this id does not exists.\n");
+    }
 }
 
 void System::printLetter(int id){
@@ -52,6 +51,15 @@ void System::printLetter(int id){
                 //<< "" cosas colombianas
                 << "Congratulaichons." << endl;
     archivoTemp.close();
+}
+
+void System::hireCandidate(int id){
+    if(existingCandidate(id)){
+        candidatesMap[id]->setHired(1);
+        printLetter(id);
+    }else{
+        throw std::invalid_argument("A candidate with this id does not exists.\n");
+    }
 }
 
 void System::setHour(int hour) {

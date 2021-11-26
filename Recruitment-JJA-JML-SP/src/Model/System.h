@@ -38,8 +38,9 @@ public:
     bool existingCandidate(int id);
     void addCandidate(string name, int id, Nationality * nationality, string email, string linkedlnURL,
                       string gitURL, int passportNumber);
-    void createInterview();
+    void createInterview(int id);
     void printLetter(int id);
+    void hireCandidate(int id);
     void setHour(int hour);
     const string &getValues() const;
     void setValues(const string &values);

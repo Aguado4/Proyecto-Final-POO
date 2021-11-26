@@ -4,7 +4,7 @@ View::View(){
 }
 
 void View::mostrarMenu(){
-    int opcion;
+    int opcion, id;
     do{
         cout << "System Menu:\n";
         cout << "1. Consult the cultural knowledge by nationality.\n";
@@ -24,13 +24,17 @@ void View::mostrarMenu(){
                 //recruitmentSystem.
                 break;
             case 3:
-                recruitmentSystem.createInterview();
+                cout << "Type the Id of the candidate: ";
+                cin >> id;
+                recruitmentSystem.createInterview(id);
                 break;
             case 4:
                 //recruitmentSystem.
                 break;
             case 5:
-                //recruitmentSystem.
+                cout << "Type the Id of the candidate: ";
+                cin >> id;
+                recruitmentSystem.hireCandidate(id);
                 break;
         }
     }while(opcion != 0);
