@@ -19,7 +19,7 @@ class Candidate{
 private:
     string name;
     int id;
-    Nationality nationality;
+    Nationality* nationality;
     string email;
     string linkedlnURL;
     string gitURL;

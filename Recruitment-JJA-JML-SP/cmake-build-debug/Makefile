@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\juanj\Proyecto-Final-POO\Recruitment-JJA-JML-SP
+CMAKE_SOURCE_DIR = "C:\Santi\Jave\Semestre3\POO\proyecto 2\Proyecto-Final-POO\Recruitment-JJA-JML-SP"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\juanj\Proyecto-Final-POO\Recruitment-JJA-JML-SP\cmake-build-debug
+CMAKE_BINARY_DIR = "C:\Santi\Jave\Semestre3\POO\proyecto 2\Proyecto-Final-POO\Recruitment-JJA-JML-SP\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\juanj\Proyecto-Final-POO\Recruitment-JJA-JML-SP\cmake-build-debug\CMakeFiles C:\Users\juanj\Proyecto-Final-POO\Recruitment-JJA-JML-SP\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Santi\Jave\Semestre3\POO\proyecto 2\Proyecto-Final-POO\Recruitment-JJA-JML-SP\cmake-build-debug\CMakeFiles" "C:\Santi\Jave\Semestre3\POO\proyecto 2\Proyecto-Final-POO\Recruitment-JJA-JML-SP\cmake-build-debug\\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\juanj\Proyecto-Final-POO\Recruitment-JJA-JML-SP\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Santi\Jave\Semestre3\POO\proyecto 2\Proyecto-Final-POO\Recruitment-JJA-JML-SP\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -248,6 +248,30 @@ src/Model/German.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment-JJA-JML-SP.dir\build.make CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/German.cpp.s
 .PHONY : src/Model/German.cpp.s
 
+src/Model/Interview.obj: src/Model/Interview.cpp.obj
+.PHONY : src/Model/Interview.obj
+
+# target to build an object file
+src/Model/Interview.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment-JJA-JML-SP.dir\build.make CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Interview.cpp.obj
+.PHONY : src/Model/Interview.cpp.obj
+
+src/Model/Interview.i: src/Model/Interview.cpp.i
+.PHONY : src/Model/Interview.i
+
+# target to preprocess a source file
+src/Model/Interview.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment-JJA-JML-SP.dir\build.make CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Interview.cpp.i
+.PHONY : src/Model/Interview.cpp.i
+
+src/Model/Interview.s: src/Model/Interview.cpp.s
+.PHONY : src/Model/Interview.s
+
+# target to generate assembly for a file
+src/Model/Interview.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment-JJA-JML-SP.dir\build.make CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Interview.cpp.s
+.PHONY : src/Model/Interview.cpp.s
+
 src/Model/Japanese.obj: src/Model/Japanese.cpp.obj
 .PHONY : src/Model/Japanese.obj
 
@@ -296,6 +320,30 @@ src/Model/System.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment-JJA-JML-SP.dir\build.make CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/System.cpp.s
 .PHONY : src/Model/System.cpp.s
 
+src/View/View.obj: src/View/View.cpp.obj
+.PHONY : src/View/View.obj
+
+# target to build an object file
+src/View/View.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment-JJA-JML-SP.dir\build.make CMakeFiles/Recruitment-JJA-JML-SP.dir/src/View/View.cpp.obj
+.PHONY : src/View/View.cpp.obj
+
+src/View/View.i: src/View/View.cpp.i
+.PHONY : src/View/View.i
+
+# target to preprocess a source file
+src/View/View.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment-JJA-JML-SP.dir\build.make CMakeFiles/Recruitment-JJA-JML-SP.dir/src/View/View.cpp.i
+.PHONY : src/View/View.cpp.i
+
+src/View/View.s: src/View/View.cpp.s
+.PHONY : src/View/View.s
+
+# target to generate assembly for a file
+src/View/View.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment-JJA-JML-SP.dir\build.make CMakeFiles/Recruitment-JJA-JML-SP.dir/src/View/View.cpp.s
+.PHONY : src/View/View.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -320,12 +368,18 @@ help:
 	@echo ... src/Model/German.obj
 	@echo ... src/Model/German.i
 	@echo ... src/Model/German.s
+	@echo ... src/Model/Interview.obj
+	@echo ... src/Model/Interview.i
+	@echo ... src/Model/Interview.s
 	@echo ... src/Model/Japanese.obj
 	@echo ... src/Model/Japanese.i
 	@echo ... src/Model/Japanese.s
 	@echo ... src/Model/System.obj
 	@echo ... src/Model/System.i
 	@echo ... src/Model/System.s
+	@echo ... src/View/View.obj
+	@echo ... src/View/View.i
+	@echo ... src/View/View.s
 .PHONY : help
 
 
