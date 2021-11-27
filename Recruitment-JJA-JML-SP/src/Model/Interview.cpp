@@ -1,9 +1,8 @@
 #include "Interview.h"
 
-Interview::Interview(int candidateId, string date, int hour){
+Interview::Interview(int candidateId, int* date){
     setCandidateId(candidateId);
-    setDate(date);
-    setHour(hour);
+    this->date = date;
 }
 
 int Interview::getCandidateId() const {
@@ -14,20 +13,8 @@ void Interview::setCandidateId(int candidateId) {
     Interview::candidateId = candidateId;
 }
 
-const string &Interview::getDate() const {
+const int *Interview::getDate() const {
     return date;
-}
-
-void Interview::setDate(const string &date) {
-    Interview::date = date;
-}
-
-int Interview::getHour() const {
-    return hour;
-}
-
-void Interview::setHour(int hour) {
-    Interview::hour = hour;
 }
 
 Interview::~Interview(){}

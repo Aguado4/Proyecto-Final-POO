@@ -22,8 +22,7 @@ using std::map;
 //Definicion de la clase system
 class System{
 private:
-    string date;
-    int hour;
+    int date[4];
     string values = "ParkingSoft is a multicultural organization as its founders are convinced that a "
                     "multicultural environment has many advantages. For example, they believe that cultural "
                     "diversity boosts innovation and creativity, increases respect, openness, and curiosity. "
@@ -41,7 +40,7 @@ public:
     void createInterview(int id);
     void printLetter(int id);
     void hireCandidate(int id);
-    void setHour(int hour);
+    void changeDate();
     const string &getValues() const;
     void setValues(const string &values);
 };

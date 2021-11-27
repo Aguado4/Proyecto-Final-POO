@@ -15,19 +15,14 @@ using namespace std;
 class Interview{
     private:
         int candidateId;
-        string date;
-        int hour;
+        int* date;
     public:
-        Interview(int candidateId, string date, int hour);
+        Interview(int candidateId, int date[4]);
         int getCandidateId() const;
         void setCandidateId(int candidateId);
-        const string &getDate() const;
-        void setDate(const string &date);
-        int getHour() const;
-        void setHour(int hour);
+        const int *getDate() const;
         ~Interview();
 
-    virtual ~Interview();
 };
 
 #endif

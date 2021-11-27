@@ -42,4 +42,4 @@ bool Candidate::isHired() const {
 
 void Candidate::setHired(bool hired) {
     Candidate::hired = hired;
-}
+}   
