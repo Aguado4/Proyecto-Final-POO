@@ -28,8 +28,6 @@ public:
     Candidate* createCandidate();
     string getCulturalInfo(int nationality);
     string getHolidayInfo(int nationality);
-
-    virtual ~Factory();
 };
 
 #endif //RECRUITMENT_JJA_JML_SP_FACTORY_H
