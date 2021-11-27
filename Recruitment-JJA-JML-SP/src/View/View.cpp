@@ -18,23 +18,45 @@ void View::mostrarMenu(){
         system("cls");
         switch (opcion){
             case 1:
-                //recruitmentSystem.
+                try{
+                    //recruitmentSystem.
+                }catch(std::invalid_argument &ex){
+                    cout << "ERROR: " << ex.what();
+                }
                 break;
             case 2:
-                //recruitmentSystem.
+                try{
+                    recruitmentSystem.addCandidate();
+                }catch(std::invalid_argument &ex){
+                    cout << "ERROR: " << ex.what();
+                }
                 break;
             case 3:
-                cout << "Type the Id of the candidate: ";
-                cin >> id;
-                recruitmentSystem.createInterview(id);
+                try{
+                    cout << "Type the Id of the candidate: ";
+                    cin >> id;
+                    recruitmentSystem.createInterview(id);
+                }catch(std::invalid_argument &ex){
+                    cout << "ERROR: " << ex.what();
+                }
                 break;
             case 4:
-                //recruitmentSystem.
+                try{
+                    cout << "Type the Id of the candidate: ";
+                    cin >> id;
+                    //recruitmentSystem.
+                }catch(std::invalid_argument &ex) {
+                    cout << "ERROR: " << ex.what();
+                }
                 break;
             case 5:
-                cout << "Type the Id of the candidate: ";
-                cin >> id;
-                recruitmentSystem.hireCandidate(id);
+                try{
+                    cout << "Type the Id of the candidate: ";
+                    cin >> id;
+                    recruitmentSystem.hireCandidate(id);
+                }catch(std::invalid_argument &ex) {
+                    cout << "ERROR: " << ex.what();
+                }
                 break;
         }
     }while(opcion != 0);
