@@ -25,3 +25,7 @@ string Colombian::culturalInfo() {
            "Nap: after lunch";
 
 }
+
+string Colombian::holidayInfo() {
+    return "";
+}

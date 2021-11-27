@@ -13,7 +13,8 @@ protected:
 public:
     Colombian();
     ~Colombian() override;
-    virtual string culturalInfo() override;
+    string culturalInfo() override;
+    string holidayInfo() override;
 };
 
 #endif //RECRUITMENT_JJA_JML_SP_COLOMBIAN_H
