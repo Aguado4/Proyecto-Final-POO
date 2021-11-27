@@ -103,6 +103,12 @@
 		<Unit filename="D:/jmlop/Desktop/Universidad/Tercer Semestre/OOP/CasinoEstudiantes/Proyecto-Final-POO/Recruitment-JJA-JML-SP/src/Model/Colombian.h">
 			<Option target="Recruitment-JJA-JML-SP"/>
 		</Unit>
+		<Unit filename="D:/jmlop/Desktop/Universidad/Tercer Semestre/OOP/CasinoEstudiantes/Proyecto-Final-POO/Recruitment-JJA-JML-SP/src/Model/Factory.cpp">
+			<Option target="Recruitment-JJA-JML-SP"/>
+		</Unit>
+		<Unit filename="D:/jmlop/Desktop/Universidad/Tercer Semestre/OOP/CasinoEstudiantes/Proyecto-Final-POO/Recruitment-JJA-JML-SP/src/Model/Factory.h">
+			<Option target="Recruitment-JJA-JML-SP"/>
+		</Unit>
 		<Unit filename="D:/jmlop/Desktop/Universidad/Tercer Semestre/OOP/CasinoEstudiantes/Proyecto-Final-POO/Recruitment-JJA-JML-SP/src/Model/German.cpp">
 			<Option target="Recruitment-JJA-JML-SP"/>
 		</Unit>

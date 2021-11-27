@@ -21,4 +21,4 @@ add_executable(Recruitment-JJA-JML-SP main.cpp
                 src/Model/German.h
                 src/Model/Afghan.cpp
                 src/Model/Afghan.h
-                src/Model/Interview.cpp)
+                src/Model/Interview.cpp src/Model/Factory.cpp src/Model/Factory.h)

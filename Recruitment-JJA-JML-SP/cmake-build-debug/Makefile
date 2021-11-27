@@ -224,6 +224,30 @@ src/Model/Colombian.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment-JJA-JML-SP.dir\build.make CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Colombian.cpp.s
 .PHONY : src/Model/Colombian.cpp.s
 
+src/Model/Factory.obj: src/Model/Factory.cpp.obj
+.PHONY : src/Model/Factory.obj
+
+# target to build an object file
+src/Model/Factory.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment-JJA-JML-SP.dir\build.make CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Factory.cpp.obj
+.PHONY : src/Model/Factory.cpp.obj
+
+src/Model/Factory.i: src/Model/Factory.cpp.i
+.PHONY : src/Model/Factory.i
+
+# target to preprocess a source file
+src/Model/Factory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment-JJA-JML-SP.dir\build.make CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Factory.cpp.i
+.PHONY : src/Model/Factory.cpp.i
+
+src/Model/Factory.s: src/Model/Factory.cpp.s
+.PHONY : src/Model/Factory.s
+
+# target to generate assembly for a file
+src/Model/Factory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment-JJA-JML-SP.dir\build.make CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Factory.cpp.s
+.PHONY : src/Model/Factory.cpp.s
+
 src/Model/German.obj: src/Model/German.cpp.obj
 .PHONY : src/Model/German.obj
 
@@ -365,6 +389,9 @@ help:
 	@echo ... src/Model/Colombian.obj
 	@echo ... src/Model/Colombian.i
 	@echo ... src/Model/Colombian.s
+	@echo ... src/Model/Factory.obj
+	@echo ... src/Model/Factory.i
+	@echo ... src/Model/Factory.s
 	@echo ... src/Model/German.obj
 	@echo ... src/Model/German.i
 	@echo ... src/Model/German.s
