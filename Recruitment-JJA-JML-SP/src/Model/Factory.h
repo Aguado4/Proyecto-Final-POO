@@ -4,5 +4,32 @@
 
 #ifndef RECRUITMENT_JJA_JML_SP_FACTORY_H
 #define RECRUITMENT_JJA_JML_SP_FACTORY_H
+#include <iostream>
+#include <stdlib.h>
+#include <fstream>
+#include <vector>
+#include "Candidate.h"
+#include "Nationality.h"
+#include "Colombian.h"
+#include "Japanese.h"
+#include "German.h"
+#include "Afghan.h"
+using std::cin;
+using std::cout;
+using std::string;
+using std::vector;
+
+class Factory{
+private:
+    vector<Nationality*>nationalities;
+public:
+    Factory();
+    ~Factory();
+    Candidate* createCandidate();
+    string getCulturalInfo(int nationality);
+    string getHolidayInfo(int nationality);
+
+    virtual ~Factory();
+};
 
 #endif //RECRUITMENT_JJA_JML_SP_FACTORY_H
