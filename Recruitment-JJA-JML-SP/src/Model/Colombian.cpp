@@ -4,10 +4,7 @@
 
 #include "Colombian.h"
 
-Colombian::~Colombian() {
-
-}
-
+Colombian::~Colombian() {}
 
 Colombian::Colombian() {
     name = "Colombian";
