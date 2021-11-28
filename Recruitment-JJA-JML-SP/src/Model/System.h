@@ -13,6 +13,7 @@
 #include "Candidate.h"
 #include "Nationality.h"
 #include "Interview.h"
+#include "Factory.h"
 
 using std::cin;
 using std::cout;
@@ -23,6 +24,7 @@ using std::map;
 class System{
 private:
     int date[4];
+    Factory factory;
     string values = "ParkingSoft is a multicultural organization as its founders are convinced that a "
                     "multicultural environment has many advantages. For example, they believe that cultural "
                     "diversity boosts innovation and creativity, increases respect, openness, and curiosity. "
@@ -35,8 +37,7 @@ public:
     System();
     ~System();
     bool existingCandidate(int id);
-    void addCandidate(string name, int id, Nationality * nationality, string email, string linkedlnURL,
-                      string gitURL, int passportNumber);
+    void addCandidate(int id);
     void createInterview(int id);
     void printLetter(int id);
     void hireCandidate(int id);

@@ -21,11 +21,10 @@ bool System::existingCandidate(int id){
     return false;
 }
 //primero verifica que no exista el candidato
-void System::addCandidate(string name, int id, Nationality * nationality, string email, string linkedlnURL,
-                          string gitURL, int passportNumber){
+void System::addCandidate(int id){
     if (!existingCandidate(id)){
         //se crea el candidato
-        Candidate *pCandidate = new Candidate (name, id, nationality, email, linkedlnURL, gitURL, passportNumber, false);
+        Candidate *pCandidate = factory.createCandidate(id);
         //se agrega al mapa
         candidatesMap.insert({pCandidate->getId(), pCandidate});
     }else{

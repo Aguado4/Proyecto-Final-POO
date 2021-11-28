@@ -25,7 +25,7 @@ private:
 public:
     Factory();
     ~Factory();
-    Candidate* createCandidate();
+    Candidate* createCandidate(int id);
     string getCulturalInfo(int nationality);
     string getHolidayInfo(int nationality);
 };

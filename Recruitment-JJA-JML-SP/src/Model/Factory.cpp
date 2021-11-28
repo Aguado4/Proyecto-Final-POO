@@ -30,13 +30,11 @@ string Factory::getHolidayInfo(int nationality) {
     return nationalities[nationality]->holidayInfo();
 }
 
-Candidate* Factory::createCandidate() {
+Candidate* Factory::createCandidate(int id) {
     string name, email, linkedin, git;
-    int id, passport, nationality;
+    int passport, nationality;
     cout<<"Enter the candidate's name:\n";
     cin>>name;
-    cout<<"Enter the candidate's ID:\n";
-    cin>>id;
     cout<<"Enter the candidate's email:\n";
     cin>>email;
     cout<<"Enter the candidate's LinkedIn URL:\n";
