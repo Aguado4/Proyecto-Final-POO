@@ -6,6 +6,7 @@
 #define RECRUITMENT_JJA_JML_SP_AFGHAN_H
 #include "Nationality.h"
 
+//Definicion de la clase Afghan
 class Afghan:public Nationality{
 protected:
     string name;

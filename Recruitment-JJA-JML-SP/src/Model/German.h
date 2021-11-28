@@ -6,6 +6,7 @@
 #define RECRUITMENT_JJA_JML_SP_GERMAN_H
 #include "Nationality.h"
 
+//Definicion de la clase German
 class German:public Nationality{
 protected:
     string name;

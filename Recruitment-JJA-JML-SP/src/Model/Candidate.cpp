@@ -5,7 +5,7 @@
 #include "Candidate.h"
 
 Candidate::Candidate(){
-    hired = false;
+    hired = false;//Por defecto no esta contratado
 }
 
 Candidate::Candidate(string name, int id, Nationality * nationality, string email, string linkedlnURL,
@@ -21,11 +21,12 @@ Candidate::Candidate(string name, int id, Nationality * nationality, string emai
 }
 
 string Candidate::getNationalityInfo(){
-    return this->nationality->culturalInfo();
+    return this->nationality->culturalInfo();//Devuelve la informacion de la cultura
 }
 
 string Candidate::getHolidayInfo(){
-    return this->nationality->holidayInfo();
+    return this->nationality->holidayInfo();//Devuelve información de los festivos para romper el hielo
+    //en la entrevista
 }
 
 int Candidate::getId(){
@@ -41,7 +42,7 @@ void Candidate::setName(const string &name) {
 }
 
 bool Candidate::isHired() const {
-    return hired;
+    return hired;//Para confirmar si esta contratado o no
 }
 
 void Candidate::setHired(bool hired) {

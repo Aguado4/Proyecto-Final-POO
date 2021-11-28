@@ -19,6 +19,7 @@ using std::cout;
 using std::string;
 using std::vector;
 
+//Definicion de la clase factory
 class Factory{
 private:
     vector<Nationality*>nationalities;
@@ -28,7 +29,6 @@ public:
     Candidate* createCandidate(int id);
     string getCulturalInfo(int nationality);
     string getHolidayInfo(int nationality);
-
     const vector<Nationality *> &getNationalities() const;
 };
 

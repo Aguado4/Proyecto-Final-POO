@@ -6,6 +6,7 @@
 #define RECRUITMENT_JJA_JML_SP_JAPANESE_H
 #include "Nationality.h"
 
+//Definicion de la clase Japanese
 class Japanese:public Nationality{
 protected:
     string name;

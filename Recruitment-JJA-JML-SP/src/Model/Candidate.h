@@ -13,7 +13,7 @@ using std::cin;
 using std::cout;
 using std::string;
 
-//Definicion de la clase system
+//Definicion de la clase Candidate
 class Candidate{
 private:
     string name, email, linkedlnURL, gitURL;

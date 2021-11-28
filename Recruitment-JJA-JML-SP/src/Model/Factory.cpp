@@ -4,7 +4,7 @@
 
 #include "Factory.h"
 
-Factory::~Factory(){
+Factory::~Factory(){//Destruye las 4 nacionalidades base
     delete nationalities[0];
     delete nationalities[1];
     delete nationalities[2];
@@ -23,15 +23,16 @@ Factory::Factory(){
 }
 
 const vector<Nationality *> &Factory::getNationalities() const {
-    return nationalities;
+    return nationalities;//Devuelve el vector con la direccion de todas las nacionalidades
 }
 
 string Factory::getCulturalInfo(int nationality) {
-    return nationalities[nationality]->culturalInfo();
+    return nationalities[nationality]->culturalInfo();//Devuelve la informacion de una nacionalidad especifica
+    //util para la guia o consultar nacionalidades
 }
 
 string Factory::getHolidayInfo(int nationality) {
-    return nationalities[nationality]->holidayInfo();
+    return nationalities[nationality]->holidayInfo();//Informacion de los festivos para la guia
 }
 
 Candidate* Factory::createCandidate(int id) {

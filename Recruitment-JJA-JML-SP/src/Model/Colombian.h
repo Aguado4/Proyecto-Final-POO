@@ -7,6 +7,7 @@
 
 #include "Nationality.h"
 
+//Definicion de la clase Colombian
 class Colombian:public Nationality{
 protected:
     string name;

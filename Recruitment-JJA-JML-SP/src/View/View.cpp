@@ -20,7 +20,7 @@ void View::mostrarMenu(){
                 cout << "0. Colombian\n1. German\n2. Afghan\n3. Japanese\nType the nationality code: ";
                 cin >> id;
                 try{
-                    recruitmentSystem.showNationalityInfo(id);
+                    recruitmentSystem.showNationalityInfo(id);//Muestra una nacionalidad especifica
                 }catch(std::invalid_argument &ex){
                     cout << "ERROR: " << ex.what();
                 }
@@ -29,7 +29,7 @@ void View::mostrarMenu(){
                 cout << "Type the Id of the candidate: ";
                 cin >> id;
                 try{
-                    recruitmentSystem.addCandidate(id);
+                    recruitmentSystem.addCandidate(id);//Añade candidato
                 }catch(std::invalid_argument &ex){
                     cout << "ERROR: " << ex.what();
                 }
@@ -38,7 +38,7 @@ void View::mostrarMenu(){
                 cout << "Type the Id of the candidate: ";
                 cin >> id;
                 try{
-                    recruitmentSystem.createInterview(id);
+                    recruitmentSystem.createInterview(id);//Le crea una entrevista a un candidato
                 }catch(std::invalid_argument &ex) {
                     cout << "ERROR: " << ex.what();
                 }
@@ -47,7 +47,7 @@ void View::mostrarMenu(){
                 cout << "Type the Id of the candidate: ";
                 cin >> id;
                 try{
-                    recruitmentSystem.hireCandidate(id);
+                    recruitmentSystem.hireCandidate(id); //Contrata a un candidato
                 }catch(std::invalid_argument &ex) {
                     cout << "ERROR: " << ex.what();
                 }
