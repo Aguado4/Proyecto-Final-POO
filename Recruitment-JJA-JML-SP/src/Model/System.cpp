@@ -54,6 +54,17 @@ void System::printLetter(int id){
     archivoTemp.close();
 }
 
+void System::printGuide(int id) {
+    ofstream archivoTemp;
+    string nombreArchivo = "guia.txt";
+    archivoTemp.open(nombreArchivo);
+    archivoTemp <<"Interview for Mr/Ms "<< candidatesMap[id]->getName() << ".\n" << endl
+    << "Important information about the candidate´s culture: \n" << endl
+    << candidatesMap[id]->returnNationalityInfo() << endl << endl
+    << "Holiday information to break the ice :\n\n"
+    << "";
+}
+
 void System::hireCandidate(int id){
     if(existingCandidate(id)){
         candidatesMap[id]->setHired(1);

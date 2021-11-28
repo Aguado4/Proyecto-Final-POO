@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Santi/Jave/Semestre3/POO/proyecto 2/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug"/>
+				<Option working_dir="C:/Users/juanj/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Santi/Jave/Semestre3/POO/proyecto 2/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Santi/Jave/Semestre3/POO/proyecto 2/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Santi/Jave/Semestre3/POO/proyecto 2/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Santi/Jave/Semestre3/POO/proyecto 2/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/make.exe -f &quot;C:/Users/juanj/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/make.exe -f &quot;C:/Users/juanj/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/make.exe -f &quot;C:/Users/juanj/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/make.exe -f &quot;C:/Users/juanj/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Recruitment-JJA-JML-SP">
-				<Option output="C:/Santi/Jave/Semestre3/POO/proyecto 2/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug/Recruitment-JJA-JML-SP.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Santi/Jave/Semestre3/POO/proyecto 2/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug"/>
+				<Option output="C:/Users/juanj/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug/Recruitment-JJA-JML-SP.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/juanj/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -30,18 +30,17 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Santi/Jave/Semestre3/POO/proyecto 2/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug/Makefile&quot;  VERBOSE=1 Recruitment-JJA-JML-SP"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Santi/Jave/Semestre3/POO/proyecto 2/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Santi/Jave/Semestre3/POO/proyecto 2/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Santi/Jave/Semestre3/POO/proyecto 2/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/make.exe -f &quot;C:/Users/juanj/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug/Makefile&quot;  VERBOSE=1 Recruitment-JJA-JML-SP"/>
+					<CompileFile command="C:/MinGW/bin/make.exe -f &quot;C:/Users/juanj/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/make.exe -f &quot;C:/Users/juanj/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/make.exe -f &quot;C:/Users/juanj/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Recruitment-JJA-JML-SP/fast">
-				<Option output="C:/Santi/Jave/Semestre3/POO/proyecto 2/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug/Recruitment-JJA-JML-SP.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Santi/Jave/Semestre3/POO/proyecto 2/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug"/>
+				<Option output="C:/Users/juanj/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug/Recruitment-JJA-JML-SP.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/juanj/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -52,97 +51,96 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Santi/Jave/Semestre3/POO/proyecto 2/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug/Makefile&quot;  VERBOSE=1 Recruitment-JJA-JML-SP/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Santi/Jave/Semestre3/POO/proyecto 2/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Santi/Jave/Semestre3/POO/proyecto 2/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Santi/Jave/Semestre3/POO/proyecto 2/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/make.exe -f &quot;C:/Users/juanj/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug/Makefile&quot;  VERBOSE=1 Recruitment-JJA-JML-SP/fast"/>
+					<CompileFile command="C:/MinGW/bin/make.exe -f &quot;C:/Users/juanj/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/make.exe -f &quot;C:/Users/juanj/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/make.exe -f &quot;C:/Users/juanj/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Santi/Jave/Semestre3/POO/proyecto 2/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug"/>
+				<Option working_dir="C:/Users/juanj/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Santi/Jave/Semestre3/POO/proyecto 2/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Santi/Jave/Semestre3/POO/proyecto 2/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Santi/Jave/Semestre3/POO/proyecto 2/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Santi/Jave/Semestre3/POO/proyecto 2/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/make.exe -f &quot;C:/Users/juanj/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/make.exe -f &quot;C:/Users/juanj/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/make.exe -f &quot;C:/Users/juanj/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/make.exe -f &quot;C:/Users/juanj/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Santi/Jave/Semestre3/POO/proyecto 2/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug"/>
+				<Option working_dir="C:/Users/juanj/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Santi/Jave/Semestre3/POO/proyecto 2/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Santi/Jave/Semestre3/POO/proyecto 2/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Santi/Jave/Semestre3/POO/proyecto 2/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Santi/Jave/Semestre3/POO/proyecto 2/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/make.exe -f &quot;C:/Users/juanj/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/make.exe -f &quot;C:/Users/juanj/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/make.exe -f &quot;C:/Users/juanj/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/make.exe -f &quot;C:/Users/juanj/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Santi/Jave/Semestre3/POO/proyecto 2/Proyecto-Final-POO/Recruitment-JJA-JML-SP/main.cpp">
+		<Unit filename="C:/Users/juanj/Proyecto-Final-POO/Recruitment-JJA-JML-SP/main.cpp">
 			<Option target="Recruitment-JJA-JML-SP"/>
 		</Unit>
-		<Unit filename="C:/Santi/Jave/Semestre3/POO/proyecto 2/Proyecto-Final-POO/Recruitment-JJA-JML-SP/src/Model/Afghan.cpp">
+		<Unit filename="C:/Users/juanj/Proyecto-Final-POO/Recruitment-JJA-JML-SP/src/Model/Afghan.cpp">
 			<Option target="Recruitment-JJA-JML-SP"/>
 		</Unit>
-		<Unit filename="C:/Santi/Jave/Semestre3/POO/proyecto 2/Proyecto-Final-POO/Recruitment-JJA-JML-SP/src/Model/Afghan.h">
+		<Unit filename="C:/Users/juanj/Proyecto-Final-POO/Recruitment-JJA-JML-SP/src/Model/Afghan.h">
 			<Option target="Recruitment-JJA-JML-SP"/>
 		</Unit>
-		<Unit filename="C:/Santi/Jave/Semestre3/POO/proyecto 2/Proyecto-Final-POO/Recruitment-JJA-JML-SP/src/Model/Candidate.cpp">
+		<Unit filename="C:/Users/juanj/Proyecto-Final-POO/Recruitment-JJA-JML-SP/src/Model/Candidate.cpp">
 			<Option target="Recruitment-JJA-JML-SP"/>
 		</Unit>
-		<Unit filename="C:/Santi/Jave/Semestre3/POO/proyecto 2/Proyecto-Final-POO/Recruitment-JJA-JML-SP/src/Model/Candidate.h">
+		<Unit filename="C:/Users/juanj/Proyecto-Final-POO/Recruitment-JJA-JML-SP/src/Model/Candidate.h">
 			<Option target="Recruitment-JJA-JML-SP"/>
 		</Unit>
-		<Unit filename="C:/Santi/Jave/Semestre3/POO/proyecto 2/Proyecto-Final-POO/Recruitment-JJA-JML-SP/src/Model/Colombian.cpp">
+		<Unit filename="C:/Users/juanj/Proyecto-Final-POO/Recruitment-JJA-JML-SP/src/Model/Colombian.cpp">
 			<Option target="Recruitment-JJA-JML-SP"/>
 		</Unit>
-		<Unit filename="C:/Santi/Jave/Semestre3/POO/proyecto 2/Proyecto-Final-POO/Recruitment-JJA-JML-SP/src/Model/Colombian.h">
+		<Unit filename="C:/Users/juanj/Proyecto-Final-POO/Recruitment-JJA-JML-SP/src/Model/Colombian.h">
 			<Option target="Recruitment-JJA-JML-SP"/>
 		</Unit>
-		<Unit filename="C:/Santi/Jave/Semestre3/POO/proyecto 2/Proyecto-Final-POO/Recruitment-JJA-JML-SP/src/Model/Factory.cpp">
+		<Unit filename="C:/Users/juanj/Proyecto-Final-POO/Recruitment-JJA-JML-SP/src/Model/Factory.cpp">
 			<Option target="Recruitment-JJA-JML-SP"/>
 		</Unit>
-		<Unit filename="C:/Santi/Jave/Semestre3/POO/proyecto 2/Proyecto-Final-POO/Recruitment-JJA-JML-SP/src/Model/Factory.h">
+		<Unit filename="C:/Users/juanj/Proyecto-Final-POO/Recruitment-JJA-JML-SP/src/Model/Factory.h">
 			<Option target="Recruitment-JJA-JML-SP"/>
 		</Unit>
-		<Unit filename="C:/Santi/Jave/Semestre3/POO/proyecto 2/Proyecto-Final-POO/Recruitment-JJA-JML-SP/src/Model/German.cpp">
+		<Unit filename="C:/Users/juanj/Proyecto-Final-POO/Recruitment-JJA-JML-SP/src/Model/German.cpp">
 			<Option target="Recruitment-JJA-JML-SP"/>
 		</Unit>
-		<Unit filename="C:/Santi/Jave/Semestre3/POO/proyecto 2/Proyecto-Final-POO/Recruitment-JJA-JML-SP/src/Model/German.h">
+		<Unit filename="C:/Users/juanj/Proyecto-Final-POO/Recruitment-JJA-JML-SP/src/Model/German.h">
 			<Option target="Recruitment-JJA-JML-SP"/>
 		</Unit>
-		<Unit filename="C:/Santi/Jave/Semestre3/POO/proyecto 2/Proyecto-Final-POO/Recruitment-JJA-JML-SP/src/Model/Interview.cpp">
+		<Unit filename="C:/Users/juanj/Proyecto-Final-POO/Recruitment-JJA-JML-SP/src/Model/Interview.cpp">
 			<Option target="Recruitment-JJA-JML-SP"/>
 		</Unit>
-		<Unit filename="C:/Santi/Jave/Semestre3/POO/proyecto 2/Proyecto-Final-POO/Recruitment-JJA-JML-SP/src/Model/Interview.h">
+		<Unit filename="C:/Users/juanj/Proyecto-Final-POO/Recruitment-JJA-JML-SP/src/Model/Interview.h">
 			<Option target="Recruitment-JJA-JML-SP"/>
 		</Unit>
-		<Unit filename="C:/Santi/Jave/Semestre3/POO/proyecto 2/Proyecto-Final-POO/Recruitment-JJA-JML-SP/src/Model/Japanese.cpp">
+		<Unit filename="C:/Users/juanj/Proyecto-Final-POO/Recruitment-JJA-JML-SP/src/Model/Japanese.cpp">
 			<Option target="Recruitment-JJA-JML-SP"/>
 		</Unit>
-		<Unit filename="C:/Santi/Jave/Semestre3/POO/proyecto 2/Proyecto-Final-POO/Recruitment-JJA-JML-SP/src/Model/Japanese.h">
+		<Unit filename="C:/Users/juanj/Proyecto-Final-POO/Recruitment-JJA-JML-SP/src/Model/Japanese.h">
 			<Option target="Recruitment-JJA-JML-SP"/>
 		</Unit>
-		<Unit filename="C:/Santi/Jave/Semestre3/POO/proyecto 2/Proyecto-Final-POO/Recruitment-JJA-JML-SP/src/Model/Nationality.h">
+		<Unit filename="C:/Users/juanj/Proyecto-Final-POO/Recruitment-JJA-JML-SP/src/Model/Nationality.h">
 			<Option target="Recruitment-JJA-JML-SP"/>
 		</Unit>
-		<Unit filename="C:/Santi/Jave/Semestre3/POO/proyecto 2/Proyecto-Final-POO/Recruitment-JJA-JML-SP/src/Model/System.cpp">
+		<Unit filename="C:/Users/juanj/Proyecto-Final-POO/Recruitment-JJA-JML-SP/src/Model/System.cpp">
 			<Option target="Recruitment-JJA-JML-SP"/>
 		</Unit>
-		<Unit filename="C:/Santi/Jave/Semestre3/POO/proyecto 2/Proyecto-Final-POO/Recruitment-JJA-JML-SP/src/Model/System.h">
+		<Unit filename="C:/Users/juanj/Proyecto-Final-POO/Recruitment-JJA-JML-SP/src/Model/System.h">
 			<Option target="Recruitment-JJA-JML-SP"/>
 		</Unit>
-		<Unit filename="C:/Santi/Jave/Semestre3/POO/proyecto 2/Proyecto-Final-POO/Recruitment-JJA-JML-SP/src/View/View.cpp">
+		<Unit filename="C:/Users/juanj/Proyecto-Final-POO/Recruitment-JJA-JML-SP/src/View/View.cpp">
 			<Option target="Recruitment-JJA-JML-SP"/>
 		</Unit>
-		<Unit filename="C:/Santi/Jave/Semestre3/POO/proyecto 2/Proyecto-Final-POO/Recruitment-JJA-JML-SP/src/View/View.h">
+		<Unit filename="C:/Users/juanj/Proyecto-Final-POO/Recruitment-JJA-JML-SP/src/View/View.h">
 			<Option target="Recruitment-JJA-JML-SP"/>
 		</Unit>
-		<Unit filename="C:/Santi/Jave/Semestre3/POO/proyecto 2/Proyecto-Final-POO/Recruitment-JJA-JML-SP/CMakeLists.txt">
+		<Unit filename="C:/Users/juanj/Proyecto-Final-POO/Recruitment-JJA-JML-SP/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
