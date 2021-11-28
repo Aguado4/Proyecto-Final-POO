@@ -49,5 +49,5 @@ void Candidate::setHired(bool hired) {
 }
 
 Candidate::~Candidate(){
-    printf("Llamar al destructor de sistema");//ya que ahí se guardo todo con memoria dinamica
+    printf("Llamar al destructor de sistema");//ya que ahí se guardo to-do con memoria dinamica
 }
