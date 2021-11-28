@@ -18,6 +18,7 @@ class Interview{
         int* date;
     public:
         Interview(int candidateId, int date[4]);
+        void printDate();
         int getCandidateId() const;
         void setCandidateId(int candidateId);
         const int *getDate() const;
