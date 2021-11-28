@@ -14,14 +14,18 @@ Candidate::Candidate(string name, int id, Nationality * nationality, string emai
     this->id = id;
     this->nationality = nationality;
     this->email = email;
-    this->linkedlnURL;
-    this->gitURL;
+    this->linkedlnURL = linkedlnURL;
+    this->gitURL = gitURL;
     this->passportNumber = passportNumber;
     this->hired = hired;
 }
 
-string Candidate::returnNationalityInfo(){
+string Candidate::getNationalityInfo(){
     return this->nationality->culturalInfo();
+}
+
+string Candidate::getHolidayInfo(){
+    return this->nationality->holidayInfo();
 }
 
 int Candidate::getId(){
