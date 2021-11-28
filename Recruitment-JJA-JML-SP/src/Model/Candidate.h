@@ -24,7 +24,8 @@ public:
     Candidate();
     Candidate(string name, int id, Nationality * nationality, string email, string linkedlnURL, string gitURL, int passportNumber, bool hired);
     ~Candidate();
-    string returnNationalityInfo();
+    string getNationalityInfo();
+    string getHolidayInfo();
     //gets & sets
     int getId();
     const string &getName() const;
