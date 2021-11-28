@@ -21,7 +21,7 @@ Candidate::Candidate(string name, int id, Nationality * nationality, string emai
 }
 
 string Candidate::returnNationalityInfo(){
-    //TODO
+    return this->nationality->culturalInfo();
 }
 
 int Candidate::getId(){
