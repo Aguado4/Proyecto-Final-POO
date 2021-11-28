@@ -18,7 +18,9 @@ void View::mostrarMenu(){
         switch (opcion){
             case 1:
                 try{
-                    //recruitmentSystem.
+                    cout << "0. Colombian\n1. German\n2. Afghan\n3. Japanese\nType the nationality code: ";
+                    cin >> id;
+                    recruitmentSystem.showNationalityInfo(id);
                 }catch(std::invalid_argument &ex){
                     cout << "ERROR: " << ex.what();
                 }

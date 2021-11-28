@@ -28,6 +28,8 @@ public:
     Candidate* createCandidate(int id);
     string getCulturalInfo(int nationality);
     string getHolidayInfo(int nationality);
+
+    const vector<Nationality *> &getNationalities() const;
 };
 
 #endif //RECRUITMENT_JJA_JML_SP_FACTORY_H

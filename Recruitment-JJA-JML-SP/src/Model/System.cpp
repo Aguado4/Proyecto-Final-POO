@@ -5,11 +5,13 @@
 #include "System.h"
 
 System::System(){
-    //Podríamos poner las nacionalidades base y unos candidatos de dummy
     this->date[0] = 2021; //año
     this->date[1] = 1; //mes
     this->date[2] = 1; //dia
     this->date[3] = 10; //hora
+    //Se crean candidatos base para facilitar las pruebas
+    candidatesMap.insert({1,new Candidate("Aguado", 1, factory.getNationalities()[0], "aguado4@jacerianacali.edu.co", "No tiene linkedln",
+                                          "https://github.com/Aguado4/Proyecto-Final-POO.git", 1005745011, false)});
 }
 
 bool System::existingCandidate(int id){
@@ -51,7 +53,7 @@ void System::printLetter(int id){
     archivoTemp << "Mr/Ms " << candidatesMap[id]->getName() << ".\n" << endl
                 << "Welcome to ParkingSoft, you have been hired." << endl << endl
                 << getValues() << endl
-                //<< "" cosas colombianas
+                << factory.getCulturalInfo(0)<< endl
                 << "Congratulations." << endl;
     archivoTemp.close();
 }
@@ -115,4 +117,13 @@ System::~System(){
         delete tempInterview;
     }
     //Factory no se tiene que borrar ya que no usa memoria dinamica
+}
+
+void System::showNationalityInfo(int code) {
+    //ya que solo hay 4 nacionalidades base, al ser un vector es mas facil verificar asi
+    if(code > -1 && code < 4){
+        cout << factory.getCulturalInfo(code);
+    }else{
+        throw std::invalid_argument("A nationality with this code does not exists.\n");
+    }
 }

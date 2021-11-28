@@ -45,6 +45,7 @@ public:
     void changeDate();
     const string &getValues() const;
     void setValues(const string &values);
+    void showNationalityInfo(int code);
 };
 
 #endif //RECRUITMENT_JJA_JML_SP_SYSTEM_H

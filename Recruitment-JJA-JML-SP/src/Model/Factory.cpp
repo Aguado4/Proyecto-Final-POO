@@ -22,6 +22,10 @@ Factory::Factory(){
     nationalities.push_back(japanese);
 }
 
+const vector<Nationality *> &Factory::getNationalities() const {
+    return nationalities;
+}
+
 string Factory::getCulturalInfo(int nationality) {
     return nationalities[nationality]->culturalInfo();
 }
