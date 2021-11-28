@@ -66,9 +66,12 @@ void System::printGuide(int id) {
     string nombreArchivo = "guide_" + idStrng + ".txt";
     archivoTemp.open(nombreArchivo);
     archivoTemp <<"Interview for Mr/Ms "<< candidatesMap[id]->getName() << ".\n" << endl
-    << "Date: " << endl;
-    this->interviewsMap[id]->printDate();
-    cout << "Important information about the candidate´s culture: \n" << endl
+    << "Date: " << endl
+    << "Hour: " << this->interviewsMap[id]->getDate()[3] << endl
+    << "Day: " << this->interviewsMap[id]->getDate()[2] << endl
+    << "Month: " << this->interviewsMap[id]->getDate()[1] << endl
+    << "Year: " << this->interviewsMap[id]->getDate()[0] << endl
+    << "Important information about the candidate´s culture: \n" << endl
     << candidatesMap[id]->getNationalityInfo() << endl << endl
     << "Holiday information to break the ice :\n\n"
     << candidatesMap[id]->getHolidayInfo() << "\n\nGood luck in your interview!";

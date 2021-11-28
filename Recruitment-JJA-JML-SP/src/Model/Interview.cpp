@@ -5,13 +5,6 @@ Interview::Interview(int candidateId, int* date){
     this->date = date;
 }
 
-void Interview::printDate(){
-    cout << "Hour: " << this->date[3] << endl
-            << "Day: " << this->date[2] << endl
-            << "Month: " << this->date[1] << endl
-            << "Year: " << this->date[0] << endl;
-}
-
 int Interview::getCandidateId() const {
     return candidateId;
 }
