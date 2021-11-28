@@ -54,14 +54,16 @@ void System::printLetter(int id){
                 << "Welcome to ParkingSoft, you have been hired." << endl << endl
                 << getValues() << endl
                 << factory.getCulturalInfo(0)<< endl
-                << "Congratulations." << endl;
+                << "\nCongratulations." << endl;
     archivoTemp.close();
+    string s = "notepad "+ nombreArchivo;
+    system(s.c_str());
 }
 
 void System::printGuide(int id) {
     ofstream archivoTemp;
     string idStrng = to_string(id);
-    string nombreArchivo = "guide" + idStrng + ".txt";
+    string nombreArchivo = "guide_" + idStrng + ".txt";
     archivoTemp.open(nombreArchivo);
     archivoTemp <<"Interview for Mr/Ms "<< candidatesMap[id]->getName() << ".\n" << endl
     << "Important information about the candidate´s culture: \n" << endl
@@ -69,6 +71,8 @@ void System::printGuide(int id) {
     << "Holiday information to break the ice :\n\n"
     << candidatesMap[id]->getHolidayInfo() << "\n\nGood luck in your interview!";
     archivoTemp.close();
+    string s = "notepad "+ nombreArchivo;
+    system(s.c_str());
 }
 
 void System::hireCandidate(int id){

@@ -17,36 +17,36 @@ void View::mostrarMenu(){
         system("cls");
         switch (opcion){
             case 1:
+                cout << "0. Colombian\n1. German\n2. Afghan\n3. Japanese\nType the nationality code: ";
+                cin >> id;
                 try{
-                    cout << "0. Colombian\n1. German\n2. Afghan\n3. Japanese\nType the nationality code: ";
-                    cin >> id;
                     recruitmentSystem.showNationalityInfo(id);
                 }catch(std::invalid_argument &ex){
                     cout << "ERROR: " << ex.what();
                 }
                 break;
             case 2:
+                cout << "Type the Id of the candidate: ";
+                cin >> id;
                 try{
-                    cout << "Type the Id of the candidate: ";
-                    cin >> id;
                     recruitmentSystem.addCandidate(id);
                 }catch(std::invalid_argument &ex){
                     cout << "ERROR: " << ex.what();
                 }
                 break;
             case 3:
+                cout << "Type the Id of the candidate: ";
+                cin >> id;
                 try{
-                    cout << "Type the Id of the candidate: ";
-                    cin >> id;
                     recruitmentSystem.createInterview(id);
                 }catch(std::invalid_argument &ex) {
                     cout << "ERROR: " << ex.what();
                 }
                 break;
             case 4:
+                cout << "Type the Id of the candidate: ";
+                cin >> id;
                 try{
-                    cout << "Type the Id of the candidate: ";
-                    cin >> id;
                     recruitmentSystem.hireCandidate(id);
                 }catch(std::invalid_argument &ex) {
                     cout << "ERROR: " << ex.what();

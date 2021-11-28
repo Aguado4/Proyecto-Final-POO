@@ -26,11 +26,11 @@ class System{
 private:
     int date[4];
     Factory factory;
-    string values = "ParkingSoft is a multicultural organization as its founders are convinced that a "
-                    "multicultural environment has many advantages. For example, they believe that cultural "
-                    "diversity boosts innovation and creativity, increases respect, openness, and curiosity. "
-                    "Also, the founders are convinced that interculturality improves their employees' ability"
-                    " to tolerate ambiguity, which is a key attitude to compete in the global market.";
+    string values = "ParkingSoft is a multicultural organization as its founders are convinced that a \n"
+                    "multicultural environment has many advantages. For example, they believe that cultural \n"
+                    "diversity boosts innovation and creativity, increases respect, openness, and curiosity. \n"
+                    "Also, the founders are convinced that interculturality improves their employees' ability\n"
+                    " to tolerate ambiguity, which is a key attitude to compete in the global market.\n";
     map<int, Candidate*> candidatesMap;
     map<int, Interview*> interviewsMap;
 public:
