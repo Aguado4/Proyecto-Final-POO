@@ -16,13 +16,9 @@ using std::string;
 //Definicion de la clase system
 class Candidate{
 private:
-    string name;
-    int id;
+    string name, email, linkedlnURL, gitURL;
+    int id, passportNumber;
     Nationality* nationality;
-    string email;
-    string linkedlnURL;
-    string gitURL;
-    int passportNumber;
     bool hired;
 public:
     Candidate();
