@@ -7,6 +7,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/German.cpp.obj"
   "CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Interview.cpp.obj"
   "CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Japanese.cpp.obj"
+  "CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Nationality.cpp.obj"
   "CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/System.cpp.obj"
   "CMakeFiles/Recruitment-JJA-JML-SP.dir/src/View/View.cpp.obj"
   "Recruitment-JJA-JML-SP.exe"

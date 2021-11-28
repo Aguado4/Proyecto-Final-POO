@@ -46,4 +46,8 @@ bool Candidate::isHired() const {
 
 void Candidate::setHired(bool hired) {
     Candidate::hired = hired;
-}   
+}
+
+Candidate::~Candidate(){
+    printf("Llamar al destructor de sistema");//ya que ahí se guardo todo con memoria dinamica
+}

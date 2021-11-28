@@ -4,7 +4,7 @@
 
 #include "Factory.h"
 
-Factory::~Factory() {
+Factory::~Factory(){
     delete nationalities[0];
     delete nationalities[1];
     delete nationalities[2];

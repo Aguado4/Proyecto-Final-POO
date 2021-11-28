@@ -320,6 +320,30 @@ src/Model/Japanese.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment-JJA-JML-SP.dir\build.make CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Japanese.cpp.s
 .PHONY : src/Model/Japanese.cpp.s
 
+src/Model/Nationality.obj: src/Model/Nationality.cpp.obj
+.PHONY : src/Model/Nationality.obj
+
+# target to build an object file
+src/Model/Nationality.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment-JJA-JML-SP.dir\build.make CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Nationality.cpp.obj
+.PHONY : src/Model/Nationality.cpp.obj
+
+src/Model/Nationality.i: src/Model/Nationality.cpp.i
+.PHONY : src/Model/Nationality.i
+
+# target to preprocess a source file
+src/Model/Nationality.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment-JJA-JML-SP.dir\build.make CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Nationality.cpp.i
+.PHONY : src/Model/Nationality.cpp.i
+
+src/Model/Nationality.s: src/Model/Nationality.cpp.s
+.PHONY : src/Model/Nationality.s
+
+# target to generate assembly for a file
+src/Model/Nationality.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment-JJA-JML-SP.dir\build.make CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Nationality.cpp.s
+.PHONY : src/Model/Nationality.cpp.s
+
 src/Model/System.obj: src/Model/System.cpp.obj
 .PHONY : src/Model/System.obj
 
@@ -401,6 +425,9 @@ help:
 	@echo ... src/Model/Japanese.obj
 	@echo ... src/Model/Japanese.i
 	@echo ... src/Model/Japanese.s
+	@echo ... src/Model/Nationality.obj
+	@echo ... src/Model/Nationality.i
+	@echo ... src/Model/Nationality.s
 	@echo ... src/Model/System.obj
 	@echo ... src/Model/System.i
 	@echo ... src/Model/System.s

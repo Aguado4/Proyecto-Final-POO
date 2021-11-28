@@ -32,7 +32,6 @@ private:
                     "Also, the founders are convinced that interculturality improves their employees' ability"
                     " to tolerate ambiguity, which is a key attitude to compete in the global market.";
     map<int, Candidate*> candidatesMap;
-    map<string, Nationality*> nationalitiesMap;
     map<int, Interview*> interviewsMap;
 public:
     System();

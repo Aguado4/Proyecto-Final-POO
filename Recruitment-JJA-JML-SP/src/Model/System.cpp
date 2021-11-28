@@ -114,4 +114,5 @@ System::~System(){
         Interview * tempInterview = interviewsMap[it->first];
         delete tempInterview;
     }
+    //Factory no se tiene que borrar ya que no usa memoria dinamica
 }

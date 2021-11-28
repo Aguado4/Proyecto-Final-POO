@@ -117,9 +117,22 @@ CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Interview.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Interview.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\juanj\Proyecto-Final-POO\Recruitment-JJA-JML-SP\src\Model\Interview.cpp -o CMakeFiles\Recruitment-JJA-JML-SP.dir\src\Model\Interview.cpp.s
 
+CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Nationality.cpp.obj: CMakeFiles/Recruitment-JJA-JML-SP.dir/flags.make
+CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Nationality.cpp.obj: ../src/Model/Nationality.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\juanj\Proyecto-Final-POO\Recruitment-JJA-JML-SP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Nationality.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Recruitment-JJA-JML-SP.dir\src\Model\Nationality.cpp.obj -c C:\Users\juanj\Proyecto-Final-POO\Recruitment-JJA-JML-SP\src\Model\Nationality.cpp
+
+CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Nationality.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Nationality.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\juanj\Proyecto-Final-POO\Recruitment-JJA-JML-SP\src\Model\Nationality.cpp > CMakeFiles\Recruitment-JJA-JML-SP.dir\src\Model\Nationality.cpp.i
+
+CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Nationality.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Nationality.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\juanj\Proyecto-Final-POO\Recruitment-JJA-JML-SP\src\Model\Nationality.cpp -o CMakeFiles\Recruitment-JJA-JML-SP.dir\src\Model\Nationality.cpp.s
+
 CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/System.cpp.obj: CMakeFiles/Recruitment-JJA-JML-SP.dir/flags.make
 CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/System.cpp.obj: ../src/Model/System.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\juanj\Proyecto-Final-POO\Recruitment-JJA-JML-SP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/System.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\juanj\Proyecto-Final-POO\Recruitment-JJA-JML-SP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/System.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Recruitment-JJA-JML-SP.dir\src\Model\System.cpp.obj -c C:\Users\juanj\Proyecto-Final-POO\Recruitment-JJA-JML-SP\src\Model\System.cpp
 
 CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/System.cpp.i: cmake_force
@@ -132,7 +145,7 @@ CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/System.cpp.s: cmake_force
 
 CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Colombian.cpp.obj: CMakeFiles/Recruitment-JJA-JML-SP.dir/flags.make
 CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Colombian.cpp.obj: ../src/Model/Colombian.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\juanj\Proyecto-Final-POO\Recruitment-JJA-JML-SP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Colombian.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\juanj\Proyecto-Final-POO\Recruitment-JJA-JML-SP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Colombian.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Recruitment-JJA-JML-SP.dir\src\Model\Colombian.cpp.obj -c C:\Users\juanj\Proyecto-Final-POO\Recruitment-JJA-JML-SP\src\Model\Colombian.cpp
 
 CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Colombian.cpp.i: cmake_force
@@ -145,7 +158,7 @@ CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Colombian.cpp.s: cmake_force
 
 CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Japanese.cpp.obj: CMakeFiles/Recruitment-JJA-JML-SP.dir/flags.make
 CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Japanese.cpp.obj: ../src/Model/Japanese.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\juanj\Proyecto-Final-POO\Recruitment-JJA-JML-SP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Japanese.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\juanj\Proyecto-Final-POO\Recruitment-JJA-JML-SP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Japanese.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Recruitment-JJA-JML-SP.dir\src\Model\Japanese.cpp.obj -c C:\Users\juanj\Proyecto-Final-POO\Recruitment-JJA-JML-SP\src\Model\Japanese.cpp
 
 CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Japanese.cpp.i: cmake_force
@@ -158,7 +171,7 @@ CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Japanese.cpp.s: cmake_force
 
 CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/German.cpp.obj: CMakeFiles/Recruitment-JJA-JML-SP.dir/flags.make
 CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/German.cpp.obj: ../src/Model/German.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\juanj\Proyecto-Final-POO\Recruitment-JJA-JML-SP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/German.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\juanj\Proyecto-Final-POO\Recruitment-JJA-JML-SP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/German.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Recruitment-JJA-JML-SP.dir\src\Model\German.cpp.obj -c C:\Users\juanj\Proyecto-Final-POO\Recruitment-JJA-JML-SP\src\Model\German.cpp
 
 CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/German.cpp.i: cmake_force
@@ -171,7 +184,7 @@ CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/German.cpp.s: cmake_force
 
 CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Afghan.cpp.obj: CMakeFiles/Recruitment-JJA-JML-SP.dir/flags.make
 CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Afghan.cpp.obj: ../src/Model/Afghan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\juanj\Proyecto-Final-POO\Recruitment-JJA-JML-SP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Afghan.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\juanj\Proyecto-Final-POO\Recruitment-JJA-JML-SP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Afghan.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Recruitment-JJA-JML-SP.dir\src\Model\Afghan.cpp.obj -c C:\Users\juanj\Proyecto-Final-POO\Recruitment-JJA-JML-SP\src\Model\Afghan.cpp
 
 CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Afghan.cpp.i: cmake_force
@@ -184,7 +197,7 @@ CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Afghan.cpp.s: cmake_force
 
 CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Factory.cpp.obj: CMakeFiles/Recruitment-JJA-JML-SP.dir/flags.make
 CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Factory.cpp.obj: ../src/Model/Factory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\juanj\Proyecto-Final-POO\Recruitment-JJA-JML-SP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Factory.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\juanj\Proyecto-Final-POO\Recruitment-JJA-JML-SP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Factory.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Recruitment-JJA-JML-SP.dir\src\Model\Factory.cpp.obj -c C:\Users\juanj\Proyecto-Final-POO\Recruitment-JJA-JML-SP\src\Model\Factory.cpp
 
 CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Factory.cpp.i: cmake_force
@@ -201,6 +214,7 @@ Recruitment__JJA__JML__SP_OBJECTS = \
 "CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Candidate.cpp.obj" \
 "CMakeFiles/Recruitment-JJA-JML-SP.dir/src/View/View.cpp.obj" \
 "CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Interview.cpp.obj" \
+"CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Nationality.cpp.obj" \
 "CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/System.cpp.obj" \
 "CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Colombian.cpp.obj" \
 "CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Japanese.cpp.obj" \
@@ -215,6 +229,7 @@ Recruitment-JJA-JML-SP.exe: CMakeFiles/Recruitment-JJA-JML-SP.dir/main.cpp.obj
 Recruitment-JJA-JML-SP.exe: CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Candidate.cpp.obj
 Recruitment-JJA-JML-SP.exe: CMakeFiles/Recruitment-JJA-JML-SP.dir/src/View/View.cpp.obj
 Recruitment-JJA-JML-SP.exe: CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Interview.cpp.obj
+Recruitment-JJA-JML-SP.exe: CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Nationality.cpp.obj
 Recruitment-JJA-JML-SP.exe: CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/System.cpp.obj
 Recruitment-JJA-JML-SP.exe: CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Colombian.cpp.obj
 Recruitment-JJA-JML-SP.exe: CMakeFiles/Recruitment-JJA-JML-SP.dir/src/Model/Japanese.cpp.obj
@@ -225,7 +240,7 @@ Recruitment-JJA-JML-SP.exe: CMakeFiles/Recruitment-JJA-JML-SP.dir/build.make
 Recruitment-JJA-JML-SP.exe: CMakeFiles/Recruitment-JJA-JML-SP.dir/linklibs.rsp
 Recruitment-JJA-JML-SP.exe: CMakeFiles/Recruitment-JJA-JML-SP.dir/objects1.rsp
 Recruitment-JJA-JML-SP.exe: CMakeFiles/Recruitment-JJA-JML-SP.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\juanj\Proyecto-Final-POO\Recruitment-JJA-JML-SP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable Recruitment-JJA-JML-SP.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\juanj\Proyecto-Final-POO\Recruitment-JJA-JML-SP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable Recruitment-JJA-JML-SP.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Recruitment-JJA-JML-SP.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -125,6 +125,9 @@
 		<Unit filename="C:/Users/juanj/Proyecto-Final-POO/Recruitment-JJA-JML-SP/src/Model/Japanese.h">
 			<Option target="Recruitment-JJA-JML-SP"/>
 		</Unit>
+		<Unit filename="C:/Users/juanj/Proyecto-Final-POO/Recruitment-JJA-JML-SP/src/Model/Nationality.cpp">
+			<Option target="Recruitment-JJA-JML-SP"/>
+		</Unit>
 		<Unit filename="C:/Users/juanj/Proyecto-Final-POO/Recruitment-JJA-JML-SP/src/Model/Nationality.h">
 			<Option target="Recruitment-JJA-JML-SP"/>
 		</Unit>

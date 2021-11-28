@@ -19,9 +19,11 @@ protected:
     string name;
 public:
     Nationality();
-    virtual ~Nationality();
     virtual string culturalInfo() = 0;
     virtual string holidayInfo() = 0;
+    virtual ~Nationality();
 };
 
 #endif //RECRUITMENT_JJA_JML_SP_NATIONALITY_H
+
+
