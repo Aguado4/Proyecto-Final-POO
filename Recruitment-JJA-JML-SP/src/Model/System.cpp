@@ -37,6 +37,7 @@ void System::createInterview(int id){
         Interview* cita = new Interview(id, this->date);
         interviewsMap.insert({id, cita});
         changeDate();
+        printGuide(id);
     }else{
         throw std::invalid_argument("A candidate with this id does not exists.\n");
     }
@@ -44,25 +45,28 @@ void System::createInterview(int id){
 
 void System::printLetter(int id){
     ofstream archivoTemp;
-    string nombreArchivo = "carta.txt";
+    string idStrng = to_string(id);
+    string nombreArchivo = "letter_" + idStrng + ".txt";
     archivoTemp.open(nombreArchivo);
     archivoTemp << "Mr/Ms " << candidatesMap[id]->getName() << ".\n" << endl
                 << "Welcome to ParkingSoft, you have been hired." << endl << endl
                 << getValues() << endl
                 //<< "" cosas colombianas
-                << "Congratulaichons." << endl;
+                << "Congratulations." << endl;
     archivoTemp.close();
 }
 
 void System::printGuide(int id) {
     ofstream archivoTemp;
-    string nombreArchivo = "guia.txt";
+    string idStrng = to_string(id);
+    string nombreArchivo = "guide" + idStrng + ".txt";
     archivoTemp.open(nombreArchivo);
     archivoTemp <<"Interview for Mr/Ms "<< candidatesMap[id]->getName() << ".\n" << endl
     << "Important information about the candidate´s culture: \n" << endl
-    << candidatesMap[id]->returnNationalityInfo() << endl << endl
+    << candidatesMap[id]->getNationalityInfo() << endl << endl
     << "Holiday information to break the ice :\n\n"
-    << "";
+    << candidatesMap[id]->getHolidayInfo() << "\n\nGood luck in your interview!";
+    archivoTemp.close();
 }
 
 void System::hireCandidate(int id){
@@ -100,5 +104,14 @@ void System::setValues(const string &values) {
 }
 
 System::~System(){
-    //TODO
+    //Se libera la memoria de las interviews y candidatos
+    for (map<int, Candidate*>:: iterator it = candidatesMap.begin(); it != candidatesMap.end(); it++){
+        Candidate * tempCandidate = candidatesMap[it->first];
+        delete tempCandidate;
+    }
+
+    for (map<int, Interview*>:: iterator  it = interviewsMap.begin(); it != interviewsMap.end(); it++){
+        Interview * tempInterview = interviewsMap[it->first];
+        delete tempInterview;
+    }
 }

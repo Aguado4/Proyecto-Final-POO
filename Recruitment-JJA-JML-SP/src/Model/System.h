@@ -10,6 +10,7 @@
 #include <stdlib.h>
 #include <fstream>
 #include <map>
+#include <string>
 #include "Candidate.h"
 #include "Nationality.h"
 #include "Interview.h"
@@ -40,7 +41,7 @@ public:
     void addCandidate(int id);
     void createInterview(int id);
     void printLetter(int id);
-    void printGuide(int id)
+    void printGuide(int id);
     void hireCandidate(int id);
     void changeDate();
     const string &getValues() const;
