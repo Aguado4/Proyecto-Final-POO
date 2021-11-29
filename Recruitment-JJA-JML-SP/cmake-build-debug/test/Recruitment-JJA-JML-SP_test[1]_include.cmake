@@ -1,0 +1,5 @@
+if(EXISTS "D:/jmlop/Desktop/Universidad/Tercer Semestre/OOP/CasinoEstudiantes/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug/test/Recruitment-JJA-JML-SP_test[1]_tests.cmake")
+  include("D:/jmlop/Desktop/Universidad/Tercer Semestre/OOP/CasinoEstudiantes/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug/test/Recruitment-JJA-JML-SP_test[1]_tests.cmake")
+else()
+  add_test(Recruitment-JJA-JML-SP_test_NOT_BUILT Recruitment-JJA-JML-SP_test_NOT_BUILT)
+endif()
