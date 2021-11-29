@@ -1,6 +1,14 @@
 cmake_minimum_required(VERSION 3.20)
 project(Recruitment-JJA-JML-SP)
 
+include_directories(lib)
+include_directories(src)
+include_directories(test)
+
+add_subdirectory(lib/googleTest)
+add_subdirectory(src)
+add_subdirectory(test)
+
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(Recruitment-JJA-JML-SP main.cpp
@@ -24,4 +32,6 @@ add_executable(Recruitment-JJA-JML-SP main.cpp
                 src/Model/Afghan.h
                 src/Model/Interview.cpp
                 src/Model/Factory.cpp
-                src/Model/Factory.h)
+)
+
+
