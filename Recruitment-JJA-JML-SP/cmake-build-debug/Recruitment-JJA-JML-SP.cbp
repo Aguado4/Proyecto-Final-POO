@@ -556,6 +556,9 @@
 			<Option target="Recruitment-JJA-JML-SP"/>
 			<Option target="Recruitment-JJA-JML-SP_lib"/>
 		</Unit>
+		<Unit filename="D:/jmlop/Desktop/Universidad/Tercer Semestre/OOP/CasinoEstudiantes/Proyecto-Final-POO/Recruitment-JJA-JML-SP/test/CandidateTest.cpp">
+			<Option target="Recruitment-JJA-JML-SP_test"/>
+		</Unit>
 		<Unit filename="D:/jmlop/Desktop/Universidad/Tercer Semestre/OOP/CasinoEstudiantes/Proyecto-Final-POO/Recruitment-JJA-JML-SP/test/FactoryTest.cpp">
 			<Option target="Recruitment-JJA-JML-SP_test"/>
 		</Unit>

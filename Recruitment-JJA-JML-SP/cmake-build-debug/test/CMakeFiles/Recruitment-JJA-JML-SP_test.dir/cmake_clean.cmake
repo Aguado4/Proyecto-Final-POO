@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Recruitment-JJA-JML-SP_test.dir/CandidateTest.cpp.obj"
   "CMakeFiles/Recruitment-JJA-JML-SP_test.dir/FactoryTest.cpp.obj"
   "Recruitment-JJA-JML-SP_test.exe"
   "Recruitment-JJA-JML-SP_test.exe.manifest"

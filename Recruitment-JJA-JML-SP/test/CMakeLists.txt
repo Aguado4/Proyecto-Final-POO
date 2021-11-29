@@ -7,7 +7,7 @@ set(BINARY ${CMAKE_PROJECT_NAME}_test)  # El nombre va a a estar en el CMake pri
 file(GLOB_RECURSE TEST_SOURCES LIST_DIRECTORIES false *.h *.cpp *.cc)
 
 # Definicion variable sources para las pruebas
-set(SOURCES ${TEST_SOURCES})
+set(SOURCES ${TEST_SOURCES} CandidateTest.cpp)
 
 add_executable(${BINARY} ${SOURCES})
 #add_executable(casino_full_test hello_test.cpp CasinoTest.cpp DosColoresTest.cpp)

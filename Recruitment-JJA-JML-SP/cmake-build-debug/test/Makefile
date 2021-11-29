@@ -174,6 +174,30 @@ Recruitment-JJA-JML-SP_test/fast:
 	cd /d "D:\jmlop\Desktop\Universidad\Tercer Semestre\OOP\CasinoEstudiantes\Proyecto-Final-POO\Recruitment-JJA-JML-SP\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\Recruitment-JJA-JML-SP_test.dir\build.make test/CMakeFiles/Recruitment-JJA-JML-SP_test.dir/build
 .PHONY : Recruitment-JJA-JML-SP_test/fast
 
+CandidateTest.obj: CandidateTest.cpp.obj
+.PHONY : CandidateTest.obj
+
+# target to build an object file
+CandidateTest.cpp.obj:
+	cd /d "D:\jmlop\Desktop\Universidad\Tercer Semestre\OOP\CasinoEstudiantes\Proyecto-Final-POO\Recruitment-JJA-JML-SP\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\Recruitment-JJA-JML-SP_test.dir\build.make test/CMakeFiles/Recruitment-JJA-JML-SP_test.dir/CandidateTest.cpp.obj
+.PHONY : CandidateTest.cpp.obj
+
+CandidateTest.i: CandidateTest.cpp.i
+.PHONY : CandidateTest.i
+
+# target to preprocess a source file
+CandidateTest.cpp.i:
+	cd /d "D:\jmlop\Desktop\Universidad\Tercer Semestre\OOP\CasinoEstudiantes\Proyecto-Final-POO\Recruitment-JJA-JML-SP\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\Recruitment-JJA-JML-SP_test.dir\build.make test/CMakeFiles/Recruitment-JJA-JML-SP_test.dir/CandidateTest.cpp.i
+.PHONY : CandidateTest.cpp.i
+
+CandidateTest.s: CandidateTest.cpp.s
+.PHONY : CandidateTest.s
+
+# target to generate assembly for a file
+CandidateTest.cpp.s:
+	cd /d "D:\jmlop\Desktop\Universidad\Tercer Semestre\OOP\CasinoEstudiantes\Proyecto-Final-POO\Recruitment-JJA-JML-SP\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\Recruitment-JJA-JML-SP_test.dir\build.make test/CMakeFiles/Recruitment-JJA-JML-SP_test.dir/CandidateTest.cpp.s
+.PHONY : CandidateTest.cpp.s
+
 FactoryTest.obj: FactoryTest.cpp.obj
 .PHONY : FactoryTest.obj
 
@@ -211,6 +235,9 @@ help:
 	@echo ... list_install_components
 	@echo ... rebuild_cache
 	@echo ... Recruitment-JJA-JML-SP_test
+	@echo ... CandidateTest.obj
+	@echo ... CandidateTest.i
+	@echo ... CandidateTest.s
 	@echo ... FactoryTest.obj
 	@echo ... FactoryTest.i
 	@echo ... FactoryTest.s
