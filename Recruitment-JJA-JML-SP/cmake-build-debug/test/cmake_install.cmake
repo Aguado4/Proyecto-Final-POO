@@ -1,4 +1,4 @@
-# Install script for directory: D:/jmlop/Desktop/Universidad/Tercer Semestre/OOP/CasinoEstudiantes/Proyecto-Final-POO/Recruitment-JJA-JML-SP/test
+# Install script for directory: C:/Users/juanj/Proyecto-Final-POO/Recruitment-JJA-JML-SP/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

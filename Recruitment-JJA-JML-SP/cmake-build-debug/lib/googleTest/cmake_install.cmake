@@ -1,4 +1,4 @@
-# Install script for directory: D:/jmlop/Desktop/Universidad/Tercer Semestre/OOP/CasinoEstudiantes/Proyecto-Final-POO/Recruitment-JJA-JML-SP/lib/googleTest
+# Install script for directory: C:/Users/juanj/Proyecto-Final-POO/Recruitment-JJA-JML-SP/lib/googleTest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("D:/jmlop/Desktop/Universidad/Tercer Semestre/OOP/CasinoEstudiantes/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug/lib/googleTest/googlemock/cmake_install.cmake")
+  include("C:/Users/juanj/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug/lib/googleTest/googlemock/cmake_install.cmake")
 
 endif()
 
