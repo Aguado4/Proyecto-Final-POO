@@ -1,4 +1,4 @@
-"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/MinGW/bin/make.exe -DCMAKE_CXX_COMPILER=C:/MinGW/bin/g++.exe -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" C:\Users\juanj\Proyecto-Final-POO\Recruitment-JJA-JML-SP
+"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" "C:\Santi\Jave\Semestre3\POO\proyecto 2\Proyecto-Final-POO\Recruitment-JJA-JML-SP"
 -- The C compiler identification is GNU 6.3.0
 -- The CXX compiler identification is GNU 6.3.0
 -- Detecting C compiler ABI info
@@ -11,7 +11,7 @@
 -- Check for working CXX compiler: C:/MinGW/bin/g++.exe - skipped
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
--- Found Python: C:/Users/juanj/AppData/Local/Programs/Python/Python38-32/python.exe (found version "3.8.5") found components: Interpreter 
+-- Found Python: C:/Program Files (x86)/Python38-32/python.exe (found version "3.8.5") found components: Interpreter 
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/juanj/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug
+-- Build files have been written to: C:/Santi/Jave/Semestre3/POO/proyecto 2/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug

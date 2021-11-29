@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/juanj/Proyecto-Final-POO/Recruitment-JJA-JML-SP/src
+# Install script for directory: C:/Santi/Jave/Semestre3/POO/proyecto 2/Proyecto-Final-POO/Recruitment-JJA-JML-SP/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

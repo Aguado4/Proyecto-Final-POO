@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/juanj/Proyecto-Final-POO/Recruitment-JJA-JML-SP/lib/googleTest/googletest/src/gtest-all.cc" "C:/Users/juanj/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug/lib/googleTest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj"
+  "C:/Santi/Jave/Semestre3/POO/proyecto 2/Proyecto-Final-POO/Recruitment-JJA-JML-SP/lib/googleTest/googletest/src/gtest-all.cc" "C:/Santi/Jave/Semestre3/POO/proyecto 2/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug/lib/googleTest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

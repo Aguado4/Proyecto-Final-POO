@@ -1,5 +1,5 @@
-if(EXISTS "C:/Users/juanj/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug/test/Recruitment-JJA-JML-SP_test[1]_tests.cmake")
-  include("C:/Users/juanj/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug/test/Recruitment-JJA-JML-SP_test[1]_tests.cmake")
+if(EXISTS "C:/Santi/Jave/Semestre3/POO/proyecto 2/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug/test/Recruitment-JJA-JML-SP_test[1]_tests.cmake")
+  include("C:/Santi/Jave/Semestre3/POO/proyecto 2/Proyecto-Final-POO/Recruitment-JJA-JML-SP/cmake-build-debug/test/Recruitment-JJA-JML-SP_test[1]_tests.cmake")
 else()
   add_test(Recruitment-JJA-JML-SP_test_NOT_BUILT Recruitment-JJA-JML-SP_test_NOT_BUILT)
 endif()
